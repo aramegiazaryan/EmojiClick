@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <ImageButton
+        android:id="@+id/btn_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/winner65"/>
+
+        <ImageButton
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="65dp"
+            android:id="@+id/btn_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/sound"/>
+
+    </RelativeLayout>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <ImageButton
+          android:id="@+id/im_emoji_click"
+          android:layout_marginLeft="17dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/emojiclick"/>
+
+  </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_effect"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="2.5">
+
+        <ImageButton
+            android:id="@+id/im_emoji_effect1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/emoji1"
+             />
+
+        <ImageButton
+            android:layout_centerInParent="true"
+            android:id="@+id/im_emoji_effect2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/emoji2"
+            />
+        <ImageButton
+            android:layout_centerInParent="true"
+            android:id="@+id/im_emoji_effect3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/emoji2"
+            />
+
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+    <ImageButton
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/playbutton" />
+</RelativeLayout>
+
+
+
+
+</LinearLayout>
+
